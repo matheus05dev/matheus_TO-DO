@@ -1,0 +1,74 @@
+{
+  "tarefas": [
+    {
+      "id": "d515d07c-f24b-4a57-88c1-2e9d3d45e16b",
+      "titulo": "Estudar para a prova de matemática",
+      "vencimento": "2025-03-09",
+      "importancia": true,
+      "check": true
+    },
+    {
+      "id": "7beacb95-5e5b-4c0b-8705-839bc07b7e9c",
+      "titulo": "Reunião com o cliente",
+      "vencimento": "2025-03-10",
+      "importancia": false,
+      "check": false
+    },
+    {
+      "id": "16b7f7f7-58a5-4935-947b-6989cfac1ef4",
+      "titulo": "Marcar consulta médica",
+      "vencimento": "2025-03-12",
+      "importancia": true,
+      "check": true
+    },
+    {
+      "id": "12ab3ff1-d4d1-4283-9e63-627dc4cf0728",
+      "titulo": "Enviar relatório",
+      "vencimento": "2025-03-13",
+      "importancia": false,
+      "check": true
+    },
+    {
+      "id": "9e14b5c3-d8c7-48ed-8043-c9fa7deeaed9",
+      "titulo": "Revisar código do projeto",
+      "vencimento": "2025-03-14",
+      "importancia": true,
+      "check": false
+    },
+    {
+      "id": "f68f290b-1f2d-4295-b3e4-0f1712360c85",
+      "titulo": "Organizar escritório",
+      "vencimento": "2025-03-15",
+      "importancia": false,
+      "check": false
+    },
+    {
+      "id": "302d0358-b3e3-4b64-9b47-e7b93adbf61d",
+      "titulo": "Ligar para o banco",
+      "vencimento": "2025-03-16",
+      "importancia": false,
+      "check": true
+    },
+    {
+      "id": "5b32eb74-0417-48de-a99d-f47c88fe3474",
+      "titulo": "Comprar presente para aniversário",
+      "vencimento": "2025-03-17",
+      "importancia": false,
+      "check": false
+    },
+    {
+      "id": "2a383a51-486b-433a-8e67-4332e0b5597d",
+      "titulo": "Reunião com a equipe",
+      "vencimento": "2025-03-18",
+      "importancia": true,
+      "check": true
+    },
+    {
+      "id": "c7745795-e064-47be-b9ab-94d4c32deb67",
+      "titulo": "Ir ao dentista",
+      "vencimento": "2025-03-23T10:30",
+      "importancia": true,
+      "check": false
+    }
+  ]
+}

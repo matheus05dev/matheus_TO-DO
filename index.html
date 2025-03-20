@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-list-check"></i>
+        <h1>Minhas Tarefas</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="form-tarefa cartao">
+                <div>
+                    <i class="fa-solid fa-plus"></i>
+                    <input type="text" name="descricao" id="descricao" placeholder="Adicionar uma tarefa" autofocus>
+                </div>
+                <div>
+                    <input type="datetime-local" name="data-vencimento" id="data-vencimento">
+                    <label for="importante">Marcar como importante</label>
+                    <input type="checkbox" name="importante" id="importante">
+                    <button class="botao-adicionar" type="button">Adicionar</button>
+                </div>
+            </section>
+            <section class="tarefas cartao">
+                <table class="tabela-tarefas">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Título</th>
+                            <th>Vencimento</th>
+                            <th>Importante</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script type="module" src="./js/script.mjs"></script>
+</body>
+
+</html>

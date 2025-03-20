@@ -1,0 +1,159 @@
+body {
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    min-height: 10px;
+    background-color: var(--cor-primaria);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: .5rem;
+
+    & h1 {
+        font-size: 1.2rem;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 60rem;
+    padding: 1rem;
+}
+
+.cartao {
+    border-radius: 6px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(173, 164, 173, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(173, 164, 173, 1);
+    box-shadow: 2px 2px 5px 0px rgba(173, 164, 173, 1);
+}
+
+.form-tarefa {
+
+    & div:nth-child(1) {
+        background-color: white;
+        padding: .5rem;
+        width: 100%;
+        border-radius: 6px;
+        height: 2rem;
+        display: flex;
+        gap: 10px;
+
+        & input {   
+            border: none;
+            outline: none;
+            font-size: 1rem;
+            flex-grow: 1;
+
+            &:not(:focus)::placeholder {
+                color: var(--cor-primaria);
+                font-weight: bold;
+            }
+        }
+    }
+
+    & div:nth-child(2) {
+        width: 100%;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        & .botao-adicionar {
+            background-color: var(--cor-primaria);
+            border-radius: 4px;
+            color: white;
+            padding: .5rem;
+            margin-left: auto;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+}
+
+.tabela-tarefas {
+    width: 100%;
+    & thead {
+        background-color: white;
+        height: 2rem;
+
+        & th {
+            text-align: center;
+        }
+
+        & th:nth-child(1) {
+            width: 5%;
+        } 
+        & th:nth-child(2) {
+            width: 60%;
+        }
+        & th:nth-child(3) {
+            width: 20%;
+        }
+        & th:nth-child(4) {
+            width: 10%;
+        }
+        & th:nth-child(5) {
+            width: 5%;
+        }
+    }
+
+    & tbody {
+
+        & td {
+            padding: .5rem;
+        }
+
+        & tr td:nth-child(1){
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+
+        & tr td:nth-child(4), td:nth-child(3){
+            text-align: center;
+        }
+
+        & tr td:nth-child(5){
+            text-align: center;
+            color: red;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}
+
+.tarefas {
+    margin-top: 1rem;
+}
+
+.tarefa-importante {
+    color: var(--cor-destaque);
+}
+
+.texto-tarefa-concluida {
+    text-decoration: line-through;
+}
+
+.icone-tarefa-concluida {
+    color: var(--cor-terciaria)!important;
+}
